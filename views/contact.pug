@@ -1,0 +1,53 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  title Contact Me
+  link(rel='stylesheet' href='/css/details.css')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.container
+  header
+    .head
+      .logo
+        a(href='/')
+          h2
+            | Moi 
+            span Blog
+      .nav_content
+        i.fa.fa-bars(style='font-size:24px' onclick='openNav()')
+        #myNav.overlay
+          a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+          .overlay-content
+            a(href='/') Home
+            a(href='/about') About
+            a(href='/contact') Contact
+  section#post_img_section
+    img(src='/images/contact.jpg' alt='')
+  section#main_content
+    .content
+      div
+        h1 Contact Me
+      .contact_dv
+        ul
+          li
+            i.fa.fa-phone(aria-hidden='true')
+            a(href='#') +918157836809
+          li
+            i.fa.fa-envelope(aria-hidden='true')
+            a(href='mailto:rajeshedayangat@gmail.com?Subject=Hello%20again' target='_top') rajeshedayangat@gmail.com
+  footer.content_dv
+    .ft_dv
+      p.p_one Copyright Reserved
+      ul.p_two
+        li
+          i.fa.fa-facebook
+        li
+          i.fa.fa-linkedin
+        li
+          i.fa.fa-twitter
+        li
+          i.fa.fa-instagram
+script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+script(src='https://unpkg.com/typewriter-effect@latest/dist/core.js')
+script(src='/js/main.js')

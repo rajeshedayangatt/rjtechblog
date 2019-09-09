@@ -1,0 +1,88 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  title BLog
+  link(rel='stylesheet' href='/css/style.css')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.container
+  header.content_dv.home_page_header
+    .head
+      .logo
+        a(href='/')
+          h2
+            | Moi 
+            span Blog
+      .title_content
+        h2#bg_title Welcome To The Blog
+        p#bg_sub_title
+      .nav_content
+        i.fa.fa-bars(style='font-size:24px' onclick='openNav()')
+        #myNav.overlay
+          a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+          .overlay-content
+            a(href='/') Home
+            a(href='/about') About
+            a(href='/contact') Contact
+  section#main_content.content_dv
+    .boxes
+      .box1.box(data-url='/post')
+        img(src='/images/img/post_img.png' alt='')
+        .content
+          span What and why ?
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          a(href='#') Read More
+          .clr
+      .box2.box(data-url='/post')
+        img(src='/images/img/post_img.png' alt='')
+        .content
+          span What and why ?
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          a.btn_evn(href='#') Read More
+          .clr
+      .box3.box(data-url='/post')
+        img(src='/images/img/post_img.png' alt='')
+        .content
+          span What and why ?
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          a(href='#') Read More
+          .clr
+      .box4.box(data-url='/post')
+        img(src='/images/img/post_img.png' alt='')
+        .content
+          span What and why ?
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          a(href='#') Read More
+          .clr
+      .box5.box(data-url='/post')
+        img(src='/images/img/post_img.png' alt='')
+        .content
+          span What and why ?
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          a.btn_evn(href='#') Read More
+          .clr
+      .box6.box(data-url='/post')
+        img(src='/images/img/post_img.png' alt='')
+        .content
+          span What and why ?
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          a(href='#') Read More
+          .clr
+  footer.content_dv
+    .ft_dv
+      p.p_one Copyright Reserved
+      ul.p_two
+        li
+          i.fa.fa-facebook
+        li
+          i.fa.fa-linkedin
+        li
+          i.fa.fa-twitter
+        li
+          i.fa.fa-instagram
+script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+script(src='https://unpkg.com/typewriter-effect@latest/dist/core.js')
+script(src='/js/main.js')
+
+

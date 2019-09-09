@@ -1,0 +1,54 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  title Post
+  link(rel='stylesheet' href='/css/details.css')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.container
+  header
+    .head
+      .logo
+        a(href='/')
+          h2
+            | Moi 
+            span Blog
+      .nav_content
+        i.fa.fa-bars(style='font-size:24px' onclick='openNav()')
+        #myNav.overlay
+          a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+          .overlay-content
+            a(href='/') Home
+            a(href='/about') About
+            a(href='/contact') Contact
+  section#post_img_section
+    img(src='/images/img/background1.jpg' alt='')
+  section#main_content
+    .content
+      div
+        h1 What and why ?
+      div
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi rem fuga reiciendis doloribus totam ex repellendus laboriosam quos! Repellat eaque, excepturi esse obcaecati soluta ab quo odit voluptas sequi pariatur.
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi rem fuga reiciendis doloribus totam ex repellendus laboriosam quos! Repellat eaque, excepturi esse obcaecati soluta ab quo odit voluptas sequi pariatur.
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi rem fuga reiciendis doloribus totam ex repellendus laboriosam quos! Repellat eaque, excepturi esse obcaecati soluta ab quo odit voluptas sequi pariatur.
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi rem fuga reiciendis doloribus totam ex repellendus laboriosam quos! Repellat eaque, excepturi esse obcaecati soluta ab quo odit voluptas sequi pariatur.
+  footer.content_dv
+    .ft_dv
+      p.p_one Copyright Reserved
+      ul.p_two
+        li
+          i.fa.fa-facebook
+        li
+          i.fa.fa-linkedin
+        li
+          i.fa.fa-twitter
+        li
+          i.fa.fa-instagram
+script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+script(src='https://unpkg.com/typewriter-effect@latest/dist/core.js')
+script(src='/js/main.js')
