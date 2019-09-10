@@ -1,0 +1,84 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  title How to Install Vue 2 Through Vue CLI | Rajesh Edayangat 
+  link(rel='stylesheet' href='/css/details.css')
+  link(rel='stylesheet' href='/css/post.css')
+  meta(name='description' content="How To Install Vue js 2 in web projects")
+  meta(name='keywords' content="Javascript,Html,Vue,Install,node,npm")
+  meta(name='author' content="Rajesh Edayangat")
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.container
+  header
+    .head
+      .logo
+        a(href='/')
+          h2
+            | Rajesh Dev 
+            span Blog
+      .nav_content
+        i.fa.fa-bars(style='font-size:24px' onclick='openNav()')
+        #myNav.overlay
+          a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+          .overlay-content
+            a(href='/') Home
+            a(href='/about') About
+            a(href='/contact') Contact
+  section#post_img_section
+    img(src='/images/img/article/vuejs/vu2.png' alt='')
+  section#main_content
+    .content
+      h1 How To Install Vue 2 Through Vue CLI
+      p
+        | Vue js is javascript framework for building single page applications.
+        | We can install vue using the  vue CLI.
+        | According to official documentation Vue CLI is for rapid vue js development.
+        | You can get all details about the Vue CLI in the 
+        a(href='https://cli.vuejs.org/guide/#components-of-the-system') official CLI.
+        |  I will show you  installing and using vue in your web applications through CLI.
+      .steps
+        p
+          | 
+        p Please follow the steps
+        .sub_steps
+          span Step 1
+          p We need to install Vue CLI globally in our system using npm.Type the following command in command line for installing CLI.Make sure Node js updated with latest version.
+          script(src='https://gist.github.com/rajeshedayangatt/b487ee058d170249bf76ed009172a078.js')
+        .sub_steps
+          span Step 2
+          p Type the following command for creating a project with Vue CLI. 
+          script(src='https://gist.github.com/rajeshedayangatt/a82576b4cb4801c8ad669cd07ed6c826.js')
+        .sub_steps
+          span Step 3
+          p When you execute the command vue cli will ask for installing options.Select the default option and enter for confirming.Vue CLI will  create the project with default configuration.For Avance features select manual and check the option you need for the project. 
+          script(src='https://gist.github.com/rajeshedayangatt/4702447d21350eb0120bba8b80e08f05.js')
+        .sub_steps
+          span Step 4
+          p After selecting the options CLI will create a project folder in system with all required  dependencies.Type the following commands for starting the project.CLI will automatically start a developement server. 
+          script(src='https://gist.github.com/rajeshedayangatt/97c53526b9289697bed8eeec9daed05d.js')
+        .sub_steps
+          span Step 5
+          p Enter http://localhost:8080/ in your browser you will see a welcome screen if vue js installed correctly.
+          img(src='/images/img/article/vuejs/screenshot_welcome.png')
+
+  footer.content_dv
+    .ft_dv
+      p.p_one &copy; All Right Reserved
+      ul.p_two
+        li
+          a(href='https://github.com/rajeshedayangatt',target="_blank") 
+            i.fa.fa-github
+        li
+          a(href='https://www.linkedin.com/in/rajesh-edayangatt-4a3a1010b/',target="_blank")
+            i.fa.fa-linkedin
+        li
+          a(href='https://twitter.com/f67d02158fb346a',target="_blank")
+            i.fa.fa-twitter
+        li
+          a(href='https://www.instagram.com/rajesh_ed/',target="_blank")
+            i.fa.fa-instagram
+script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+script(src='https://unpkg.com/typewriter-effect@latest/dist/core.js')
+script(src='/js/main.js')

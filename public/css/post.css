@@ -13,3 +13,9 @@
     padding-left: 20px;
     font-size: 15px !important;
 }
+
+.sub_steps img {
+
+    width: 100%;
+    height: 50%;
+}

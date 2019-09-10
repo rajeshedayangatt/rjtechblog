@@ -20,6 +20,11 @@ app.get('/article/:articleid', function (req, res) {
 
         res.render('article/vuejs/how_to_install_vue2_npm');
     }
+    else if(article == "how-to-install-vue2-vue-cli"){
+
+        res.render('article/vuejs/how_to_install_vue2_cli');
+    }
+    
     
 });
 app.get('/about', function (req, res) {
