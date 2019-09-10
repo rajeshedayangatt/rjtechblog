@@ -8,8 +8,19 @@ app.use(express.static('public'))
 app.get('/', function (req, res) {
     res.render('index');
 });
-app.get('/post', function (req, res) {
-    res.render('post');
+app.get('/article/:articleid', function (req, res) {
+
+    var article = req.params.articleid;
+
+    if(article == "how-to-install-vue2") {
+
+        res.render('article/vuejs/how_to_install_vue2');
+
+    }else if(article == "how-to-install-vue2-npm"){
+
+        res.render('article/vuejs/how_to_install_vue2_npm');
+    }
+    
 });
 app.get('/about', function (req, res) {
     res.render('about');

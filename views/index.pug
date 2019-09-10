@@ -1,7 +1,7 @@
 doctype html
 head
   meta(charset='UTF-8')
-  title BLog
+  title Rajesh Dev Blog
   link(rel='stylesheet' href='/css/style.css')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
@@ -12,7 +12,7 @@ head
       .logo
         a(href='/')
           h2
-            | Moi 
+            | Rajesh Dev 
             span Blog
       .title_content
         h2#bg_title Welcome To The Blog
@@ -27,17 +27,17 @@ head
             a(href='/contact') Contact
   section#main_content.content_dv
     .boxes
-      .box1.box(data-url='/post')
+      .box1.box(data-url='/article/how-to-install-vue2')
         img(src='/images/img/post_img.png' alt='')
         .content
-          span What and why ?
+          span How to Install Vue 2 By Including CDN 
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           a(href='#') Read More
           .clr
-      .box2.box(data-url='/post')
+      .box2.box(data-url='/article/how-to-install-vue2-npm')
         img(src='/images/img/post_img.png' alt='')
         .content
-          span What and why ?
+          span How To Install Vue 2 Through NPM
           p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           a.btn_evn(href='#') Read More
           .clr
@@ -71,16 +71,20 @@ head
           .clr
   footer.content_dv
     .ft_dv
-      p.p_one Copyright Reserved
+      p.p_one &copy; All Right Reserved
       ul.p_two
         li
-          i.fa.fa-facebook
+          a(href='https://github.com/rajeshedayangatt',target="_blank") 
+            i.fa.fa-github
         li
-          i.fa.fa-linkedin
+          a(href='https://www.linkedin.com/in/rajesh-edayangatt-4a3a1010b/',target="_blank")
+            i.fa.fa-linkedin
         li
-          i.fa.fa-twitter
+          a(href='https://twitter.com/f67d02158fb346a',target="_blank")
+            i.fa.fa-twitter
         li
-          i.fa.fa-instagram
+          a(href='https://www.instagram.com/rajesh_ed/',target="_blank")
+            i.fa.fa-instagram
 script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
 script(src='https://unpkg.com/typewriter-effect@latest/dist/core.js')
 script(src='/js/main.js')

@@ -1,0 +1,82 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  title How to Install Vue 2 Through NPM | Rajesh Edayangat 
+  link(rel='stylesheet' href='/css/details.css')
+  link(rel='stylesheet' href='/css/post.css')
+  meta(name='description' content="How To Install Vue js 2 in web projects")
+  meta(name='keywords' content="Javascript,Html,Vue,Install,node,npm")
+  meta(name='author' content="Rajesh Edayangat")
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+.container
+  header
+    .head
+      .logo
+        a(href='/')
+          h2
+            | Rajesh Dev 
+            span Blog
+      .nav_content
+        i.fa.fa-bars(style='font-size:24px' onclick='openNav()')
+        #myNav.overlay
+          a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+          .overlay-content
+            a(href='/') Home
+            a(href='/about') About
+            a(href='/contact') Contact
+  section#post_img_section
+    img(src='/images/img/article/vuejs/vu2.png' alt='')
+  section#main_content
+    .content
+      h1 How To Install Vue 2 Through NPM
+      p Vue js is javascript framework for building single page applications.We can install vue js using the node package manager (NPM).NPM is using for installing packages.You can use these method for including vue in existing or new projects.I will show you  installing and using vue in your web applications through NPM.
+      .steps
+        p
+          | 
+        p Please follow the steps
+        .sub_steps
+          span Step 1
+          p Please make sure that you have already installed node and npm in your system.To check the status type following commands in command line.<br>(Note : if you dont find the version number please go through the node official site for downloading latest nodejs)
+          script(src='https://gist.github.com/rajeshedayangatt/a7a2a4a3a5d8ce3d29a29bc7ffae4d5b.js')
+        .sub_steps
+          span Step 2
+          p Create a project folder in your computer
+          script(src='https://gist.github.com/rajeshedayangatt/36f9d379b76753049b1ec6cffa9b197d.js')
+        .sub_steps
+          span Step 3
+          p To installing vue js dependencies and other third party libraries we need package.json file. Type the following command in command line.After executing the code you will see a package.json file  created in the folder with default configuration.
+          script(src='https://gist.github.com/rajeshedayangatt/ae22bce9b59fec172081402959740c59.js')
+        .sub_steps
+          span Step 4
+          p Next we will install vue js with npm.Type the following command for installing vue js.
+          script(src='https://gist.github.com/rajeshedayangatt/f96702ef6ad0539cee5a4913ca7bc106.js')
+        .sub_steps
+          span Step 5
+          p Create index.html file in the project folder and add the following code.
+          script(src='https://gist.github.com/rajeshedayangatt/f93e2f4096c532a6c4483a11e01a5fb1.js')
+        .sub_steps
+          span Step 6
+          p
+            | Now Open the index page in a browser and you will see &apos;Hello World! We Have Installed Vue 2&apos;.Which means that vue js working.
+     
+  footer.content_dv
+    .ft_dv
+      p.p_one &copy; All Right Reserved
+      ul.p_two
+        li
+          a(href='https://github.com/rajeshedayangatt',target="_blank") 
+            i.fa.fa-github
+        li
+          a(href='https://www.linkedin.com/in/rajesh-edayangatt-4a3a1010b/',target="_blank")
+            i.fa.fa-linkedin
+        li
+          a(href='https://twitter.com/f67d02158fb346a',target="_blank")
+            i.fa.fa-twitter
+        li
+          a(href='https://www.instagram.com/rajesh_ed/',target="_blank")
+            i.fa.fa-instagram
+script(src='https://code.jquery.com/jquery-3.4.1.min.js' integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous')
+script(src='https://unpkg.com/typewriter-effect@latest/dist/core.js')
+script(src='/js/main.js')

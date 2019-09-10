@@ -1,8 +1,12 @@
 doctype html
 head
   meta(charset='UTF-8')
-  title About Me
+  title How to Install Vue 2 By Including CDN | Rajesh Edayangat 
   link(rel='stylesheet' href='/css/details.css')
+  link(rel='stylesheet' href='/css/post.css')
+  meta(name='description' content="How To Install Vue js 2 in web projects")
+  meta(name='keywords' content="Javascript,Html,Vue,Install")
+  meta(name='author' content="Rajesh Edayangat")
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   link(href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap' rel='stylesheet')
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
@@ -23,18 +27,32 @@ head
             a(href='/about') About
             a(href='/contact') Contact
   section#post_img_section
-    img(src='/images/about.jpg' alt='')
+    img(src='/images/img/article/vuejs/vu2.png' alt='')
   section#main_content
     .content
-      div
-        h1 About Me
-      div
+      h1 How To Install Vue 2 By Including CDN
+      p Vue js is javascript framework for building single page applications.The easiest way of including vue in your project is by including  CDN (Content delivery network) in script tag.I will show you  installing and using vue in your web applications through CDN.
+      .steps
         p
-          | Hey,I am a PHP programmer with more than 3 years of experience in creating and maintaining web application mostly using Laravel, Codeigniter and other frontend technologies.
-        p
-          | Find More About Me 
-          a.about_me(href='http://www.rajeshedayangat.tech/')
-            i.fa.fa-arrow-right
+          | 
+        p Please follow the steps
+        .sub_steps
+          span Step 1
+          p Create a project folder in your computer
+          script(src='https://gist.github.com/rajeshedayangatt/94a8f3acd6b72484ca1b02bcbe9cb50b.js')
+        .sub_steps
+          span Step 2
+          p Create index.html file in the project folder and add the following code.
+          script(src='https://gist.github.com/rajeshedayangatt/4e8739ecaa5c0c3b3bc994a7224758eb.js')
+        .sub_steps
+          span Step 3
+          p Update the index html file with following code.
+          script(src='https://gist.github.com/rajeshedayangatt/7c357f27bcd9a62f7653fe280d96586e.js')
+        .sub_steps
+          span Step 4
+          p
+            | Now Open the index page in a browser and you will see &apos;Hello World&apos;.Which means that vue js working.
+     
   footer.content_dv
     .ft_dv
       p.p_one &copy; All Right Reserved

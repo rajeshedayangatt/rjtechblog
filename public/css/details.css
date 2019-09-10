@@ -120,7 +120,7 @@ font-family: 'Open Sans', sans-serif;	background-color: #000000;
 	width: 70%;
 	margin: 0 auto;
 	line-height: 2rem;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
 #main_content .content h1 {
@@ -174,20 +174,36 @@ footer ul {
 	align-self: center;
 }
 
-
 footer li {
 	display: inline-block;
 	padding: 10px;
 	font-size: 20px;
+	    transition: transform 1s ease-out;
+    transform: scale(.9);
 }
 
-
+footer li:hover{
+	color: #51e889;
+	cursor: pointer;
+	  transform: scale(1.2);
+  transform-origin: 50% 50%;
+}
 
 
 
 footer p:hover{
 
 	color: #51e889;;
+}
+
+
+footer i {
+
+	color: #fff;
+}
+footer i:hover {
+
+	color: #51e889;
 }
 
 footer li:hover{

@@ -1,0 +1,15 @@
+.content >  p {
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 18px !important;
+}
+
+.sub_steps span {
+    color: #51e889;
+    font-weight: bolder;
+}
+
+.sub_steps p {
+    padding-left: 20px;
+    font-size: 15px !important;
+}

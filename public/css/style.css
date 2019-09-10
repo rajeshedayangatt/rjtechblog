@@ -264,7 +264,14 @@ footer li:hover{
 
 
 
+footer i {
 
+	color: #fff;
+}
+footer i:hover {
+
+	color: #51e889;
+}
 
 
 
@@ -588,6 +595,8 @@ footer li:hover{
 		justify-self: center;
 		padding: 20px;
 	}
+
+
 
 	  .overlay a {font-size: 20px}
   .overlay .closebtn {
